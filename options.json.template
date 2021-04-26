@@ -1,4 +1,8 @@
 {
   "github_access_token": "",
-  "github_ca_backend_repo": ""
+  "github_ca_backend_repo": "",
+  "ideascale_api_token": "",
+  "ideascale_base_api_url": "https://cardano.ideascale.com/a/rest",
+  "assess_funnel_stage_ids": ["1234", "5678"],
+  "assess_funnel_endpoint": "/v1/assessment/{}/results"
 }
