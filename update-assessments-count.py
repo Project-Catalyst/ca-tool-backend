@@ -42,6 +42,8 @@ def main():
             g = Github(goptions['github_access_token'])
             repo = g.get_repo(goptions['github_ca_backend_repo'])
             contents = repo.get_contents("proposals.json")
+            with open('proposals.json', 'w') as outfile:
+                json.dump(ideas, outfile)
             repo.update_file(contents.path, "Update assessments count", json.dumps(ideas), contents.sha)
         except Exception as e:
             print(e)
