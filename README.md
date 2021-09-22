@@ -18,10 +18,10 @@ Copy `options.json.template` to `options.json` and set:
 file. You have to create the token from Github Profile -> Settings -> Developer
 Settings -> Personal Access Token. The token needs the `repo` scopes and you
 need to have write access to the repository.
-- `ideascale_api_token` the API token used to fect data from the Ideascale API.
-- `ideascale_base_api_url` the Ideascal API base url, like
+- `ideascale_api_token` the API token used to fetch data from the Ideascale API.
+- `ideascale_base_api_url` the Ideascale API base url, like
 `https://cardano.ideascale.com/a/rest`
-- `assess_funnel_stage_ids` the ids tf the funnel stages to query
+- `assess_funnel_stage_ids` the ids of the funnel stages to query
 - `assess_funnel_endpoint` the endpoint for `getAssessmentResults`.
 
 
